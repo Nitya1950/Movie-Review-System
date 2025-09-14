@@ -1,0 +1,21 @@
+{
+  "name": "movie-review-platform",
+  "version": "1.0.0",
+  "description": "A full-stack movie review platform with React frontend and Node.js backend",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "setup": "node setup.js"
+  },
+  "keywords": ["movie", "review", "react", "nodejs", "mongodb"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

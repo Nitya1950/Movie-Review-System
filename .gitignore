@@ -1,0 +1,15 @@
+node_modules
+server/.env
+chatai.docx
+SOLUTION_SUMMARY.md
+server/importMovies.js
+server/importMoviesWithReviews.js
+server/seedReviews.js
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build folders
+build/
+dist/
